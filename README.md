@@ -48,3 +48,12 @@ def saudacao(nome):
     return f"Olá, {nome}!"
 
 print(saudacao("Sergio"))
+```
+
+```python
+
+print("Olá, Mundo!")
+
+```
+
+
