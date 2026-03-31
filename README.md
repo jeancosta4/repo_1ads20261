@@ -98,6 +98,10 @@ function hello() {
 ```
 </pre>
 
+```python
+print('Olá, mundo!')
+```
+
 ---
 
 # 📊 8. Tabelas
