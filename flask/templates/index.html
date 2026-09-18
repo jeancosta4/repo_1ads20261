@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block titulo %} Index {% endblock %}
+
+{% block conteudo %}
+    <h1> Somente o conteúdo da página Index</h1>
+    <figure>
+        <img src="{{ url_for('static', filename='img/capa.png') }}" alt="Capa">
+    </figure>
+{% endblock %}

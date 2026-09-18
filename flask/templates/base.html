@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block titulo %} Meu Site{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <header>
+        <figure>
+            <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Logo">
+        </figure>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/sobre">Sobre</a>
+            <a href="/contato">Contato</a>
+        </nav>
+    </header>
+
+
+    <main>
+        {% block conteudo %}
+        {% endblock %}
+
+
+    <footer>
+        <p>&copy; 2026 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>
